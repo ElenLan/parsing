@@ -43,3 +43,4 @@ pprint(news)
 
 with open('news.json', 'w', encoding='UTF-8') as f:
     json.dump(news, f)
+# еще не начинала работу с Mongo, поэтому сохранила в json
